@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the Webpage -->
+    <title>Patient Registration Form</title>
+</head>
+
+<!-- Body tag -->
+<body style="background-color: rgb(89, 204, 243);">
+    <!-- Heading of the Registration form -->
+    <h1 style="text-align: center; color: rgb(47, 32, 150);">Patient Form</h1>
+    <h2 style="text-align: center;"><u>Welcome to ABC Hospital</u></h2>
+    <h3 style="text-align: center;"><i><b>Kindly fill the form</b></i></h3>
+
+    <!-- Div containing image -->
+    <div style="display: flex; justify-content: center;">
+        <img src="https://img.freepik.com/free-vector/people-walking-sitting-hospital-building-city-clinic-glass-exterior-flat-vector-illustration-medical-help-emergency-architecture-healthcare-concept_74855-10130.jpg?w=2000" alt="Hospital"
+        style="height: 400px; width:600px; margin-bottom: 25px; border-radius: 10px;">
+    </div>
+
+    <!-- Div containing the form -->
+    <div>
+        <!-- Creating Form -->
+        <form id="form" style="font-size: 20px;">
+            <b>
+                <!-- Label and input - text for Name -->
+                <label for="name" style="margin-right:44px; ">Name</label>
+                <input type="text" id="name" name="name" style="margin-bottom: 10px;"><br>
+    
+                <!-- Label and input - textarea for Address -->
+                <label for="address" style="margin-right:25px;">Address</label>
+                <textarea name="address" id="address" cols="30" rows="10" style="margin-bottom: 0px;"></textarea><br>
+    
+                <!-- Label and input - text for Phone Number -->
+                <label for="phone" style="margin-right:8px; ">Phone No.</label>
+                <input type="text" id="phone" name="phone" style="margin-bottom: 10px;"><br>
+    
+                <!-- Label and input - date for Date -->
+                <label for="date" style="margin-right:56px">Date</label>
+                <input type="date" name="date" id="date" style="margin-bottom: 10px;"><br>
+    
+                <!-- Label and input - text for Time-->
+                <label for="time" style="margin-right:44px; ">Time</label>
+                <input type="text" id="time" name="time" style="margin-bottom: 10px;"><br>
+    
+                <!-- Label and input - radio for Symptoms -->
+                <label for="symptoms">Symptoms</label>
+                <input type="radio" id="fever" name="symptoms" value="fever" style="margin-left:20em ;">
+                <label for="fever" style="position: absolute;">Fever</label>
+                <input type="radio" id="cough" name="symptoms" value="cough" style="margin-left:20em ;">
+                <label for="cough" style="position: absolute;">Cough</label>
+                <input type="radio" id="body" name="symptoms" value="body" style="margin-left:20em ;">
+                <label for="body" style="position: absolute;">Body Weakness</label>
+                <input type="radio" id="dia" name="symptoms" value="dia" style="margin-left:20em ;">
+                <label for="dia" style="position: absolute;">Diarrhea</label><br>
+                
+                <!-- Label and input - button for Submit -->
+                <p><i>After filling up the form. Kindly Submit the form!</i></p>
+                <button type="button" id="form" value="submit">Submit</button>
+            </b>
+        </form>
+    </div>
+</body>
+</html>
