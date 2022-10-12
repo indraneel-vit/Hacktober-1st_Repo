@@ -7,6 +7,11 @@
 
     <!-- Title of the Webpage -->
     <title>Patient Registration Form</title>
+    <style>
+        button:hover{
+            background-color: aquamarine;
+        }
+    </style>
 </head>
 
 <!-- Body tag -->
@@ -25,7 +30,7 @@
     <!-- Div containing the form -->
     <div>
         <!-- Creating Form -->
-        <form id="form" style="font-size: 20px;">
+        <form id="form" style="display: flex; justify-content:center;font-size: 25px;">
             <b>
                 <!-- Label and input - text for Name -->
                 <label for="name" style="margin-right:44px; ">Name</label>
@@ -46,10 +51,6 @@
                 <!-- Label and input - text for Time-->
                 <label for="time" style="margin-right:44px; ">Time</label>
                 <input type="text" id="time" name="time" style="margin-bottom: 10px;"><br>
-
-                <!-- Label and input - text for Time-->
-                <label for="time" style="margin-right:44px; ">Time</label>
-                <input type="text" id="time" name="time" style="margin-bottom: 10px;"><br>
     
                 <!-- Label and input - radio for Symptoms -->
                 <label for="symptoms">Symptoms</label>
@@ -64,11 +65,11 @@
                 
                 <!-- Label and input - button for Submit -->
                 <p><i>After filling up the form. Kindly Submit the form!</i></p>
-                <button type="button" id="form" value="submit">Submit</button>
+                <button type="button" id="form" value="submit" style="padding: 20px; font-size:20px;border-radius:20px;border:none; margin-left: 600px;">Submit</button>
             </b>
         </form>
 
-        <div>
+        <div style="display: flex; justify-content:center; font-size: 25px; font-weight:bold;">
             <p>Thank you for visting the page :)</p>
         </div>
     </div>
